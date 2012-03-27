@@ -1,0 +1,15 @@
+<projectDescription>
+  <name>jena-babel2-tsv-converter</name>
+  <comment>TSV Converter is part of the Babel2 project. It reads and writes data in tab-separated value formats. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>jena-babel2-apis</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

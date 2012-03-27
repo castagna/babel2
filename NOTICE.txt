@@ -1,0 +1,8 @@
+Babel2 
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This software were originally based on the following:
+  - Copyright MIT and contributors 2006-2009. Some rights reserved.
+

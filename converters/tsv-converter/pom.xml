@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.jena</groupId>
+  <artifactId>jena-babel2-tsv-converter</artifactId>
+  <name>Babel2 TSV Converter</name>
+  <version>1.0.0</version>
+  <description>TSV Converter is part of the Babel2 project. It reads and writes data in tab-separated value formats.</description> 
+
+  <parent>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-babel2-converters</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <dependencies>
+	<dependency>
+		<groupId>org.apache.jena</groupId>
+		<artifactId>jena-babel2-apis</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+  </dependencies>
+
+</project>

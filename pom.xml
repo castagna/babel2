@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.apache.jena</groupId>
+  <artifactId>jena-babel2-pom</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <name>Babel2</name>
+  <description>Babel2 is a tool for converting between a variety of data formats. It is version 2 of the original SIMILE Babel available at: http://www.simile-widgets.org/babel/</description> 
+  <url>http://github.com/castagna/babel2</url>
+  <inceptionYear>2012</inceptionYear>
+
+  <modules>
+    <module>apis</module>
+    <module>engine</module>
+    <module>converters</module>
+  </modules>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>    
+      <plugin>
+        <inherited>true</inherited>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <configuration>
+          <downloadSources>true</downloadSources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>
