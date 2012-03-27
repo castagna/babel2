@@ -61,6 +61,7 @@ public class ListMap extends HashMap<Object,Object> {
 			: ((List) val).get(index);
 	}
 
+	@SuppressWarnings("unchecked")
 	public Object put(Object key, Object value){
 		List val = (List) super.get(key);
 		if(val == null)
